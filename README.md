@@ -5,4 +5,6 @@ Para mais detalhes acesse: [https://barbaratieko.github.io/tecweb/aulas/02-desaf
 
 Adicione aqui o nome de todos os integrantes:
 
-- test
+- Heloísa Nogueira
+- Kailyn Fittel
+- Paula Ehrenberger

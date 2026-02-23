@@ -34,7 +34,7 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 4px rgba(0,0,0,0.5);
 }
 
 .appbar .logo{
@@ -46,6 +46,36 @@ body {
 .appbar .subtitle{
   font-size: 14px;
 }
+
+.form-card {
+  background: #ffffff;
+  width: 480px;
+  margin: 28px auto; /* browser calculates a margin */
+  padding: 12px 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-card-title, .form-card textarea {
+  border: 0;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-card-title {
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.form-card textarea {
+  font-size: 12px;
+  color: #4c4c4c;
+  resize: none; /* tira o icone de aumentar a caixa de texto */
+}
+
 
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */

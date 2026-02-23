@@ -1,4 +1,4 @@
-/*
+/* 
 Algumas informações úteis e dicas:
   - Fontes disponíveis:
     font-family: 'Roboto', sans-serif;
@@ -27,9 +27,30 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Appbar mesma coisa que header para funcionar sem mudar o arquivo index.html */
+.appbar{
+  background: #f7d736;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.appbar .logo{
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+.appbar .subtitle{
+  font-size: 14px;
+}
+
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +98,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}

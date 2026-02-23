@@ -25,6 +25,7 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 
 /* Appbar mesma coisa que header para funcionar sem mudar o arquivo index.html */
@@ -128,4 +129,57 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+
+.card-container{
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  
+  
+  column-gap: 28px;
+  row-gap: 28px;
+
+  align-content: flex-start;
+}
+
+.card{
+  width: 210px;
+  min-height: 120px;
+  padding: 12px 14px;
+
+  border-radius: 4px;
+  border: 1px solid rgba(44,44,44,.08);
+
+  font-family: "Permanent Marker", cursive;
+  color: #2c2c2c;
+
+  box-shadow:
+    0 10px 20px rgba(0,0,0,.19),
+    0 6px 6px rgba(0,0,0,.23);
+
+  transform-origin: 50% 12%;
+}
+
+.card-title{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.card-content{
+  display: flex;
+  min-height: 60px;   
+}
+.card-content p{
+  font-size: 13px;
+  line-height: 1.25;
+  color: #4c4c4c;
+
+  width: fit-content;
+  max-width: 100%;
+  margin: auto;        
+  text-align: left;
+
+  display: block;
 }

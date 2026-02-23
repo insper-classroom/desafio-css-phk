@@ -30,7 +30,7 @@ body {
 /* Appbar mesma coisa que header para funcionar sem mudar o arquivo index.html */
 .appbar{
   background: #f7d736;
-  padding: 12px 16px;
+  padding: 8px 8px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -38,7 +38,7 @@ body {
 }
 
 .appbar .logo{
-  height: 30px;
+  height: 36px;
   width: auto;
   display: block;
 }

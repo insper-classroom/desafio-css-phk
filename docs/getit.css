@@ -147,8 +147,8 @@ body {
 }
 
 .card{
-  width: 210px;
-  min-height: 120px;
+  width: 170px;
+  min-height: 80px;
   padding: 12px 14px;
 
   border-radius: 4px;

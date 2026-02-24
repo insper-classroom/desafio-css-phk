@@ -25,7 +25,8 @@ Algumas informações úteis e dicas:
 html,
 body {
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
+  overflow-y: auto;   /* libera rolagem vertical */
+  overflow-x: hidden; /* evita rolagem horizontal */
 }
 
 /* Appbar mesma coisa que header para funcionar sem mudar o arquivo index.html */
